@@ -7,11 +7,13 @@ const Hero = () => {
       <div className='content'>
         <p className='caption'>COVID-19 Alert</p>
         <header className='main'>
-          Stay At Home Quarantine to stop coronavirus.
+          Stay at Home. Quarantine to stop coronavirus.
         </header>
         <p className='desc'>
-          There is no specific to prevent or treat coronavirus disease(COVID-19)
-          People may need supportive care too.
+          There is no specific treatment to prevent or treat coronavirus
+          disease(COVID-19). The best way to prevent and slow down transmission
+          is be well informed about the COVID-19 virus, the disease it causes
+          and how it spreads.
         </p>
         <button className='link'>Let Us Help</button>
       </div>
