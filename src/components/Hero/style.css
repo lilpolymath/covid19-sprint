@@ -38,6 +38,10 @@
   color: white;
 }
 
+.link a {
+  color: white;
+}
+
 .image {
   display: flex;
   flex: 0.6;

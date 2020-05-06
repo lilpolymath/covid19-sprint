@@ -15,7 +15,9 @@ const Hero = () => {
           is be well informed about the COVID-19 virus, the disease it causes
           and how it spreads.
         </p>
-        <button className='link'>Let Us Help</button>
+        <button className='link'>
+          <a href='https://covid19.ncdc.gov.ng/contact/'>Let us Help</a>
+        </button>
       </div>
       <div className='image'>
         <svg
