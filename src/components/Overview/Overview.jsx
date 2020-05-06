@@ -3,7 +3,7 @@ import './style.css';
 
 const Overview = () => {
   return (
-    <section className='overview'>
+    <section id='overview' className='overview'>
       <div className='overview-image'>
         <svg
           className='svg'

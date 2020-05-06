@@ -3,7 +3,7 @@ import './style.css';
 
 const Contagion = () => {
   return (
-    <section className='contagion'>
+    <section id='contagion' className='contagion'>
       <div className='heading'>
         <header className='main'>Contagion</header>
         <p className='desc'>
