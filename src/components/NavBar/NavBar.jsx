@@ -90,11 +90,21 @@ const NavBar = () => {
       </div>
       <nav>
         <ul className='nav-links'>
-          <li className='nav-item active'>Overview</li>
-          <li className='nav-item'>Contagion</li>
-          <li className='nav-item'>Symptoms</li>
-          <li className='nav-item'>Prevention</li>
-          <button className='nav-button'>Contact Us</button>
+          <li className='nav-item'>
+            <a href='#overview' className='active'>
+              Overview
+            </a>
+          </li>
+          <li className='nav-item'>
+            <a href='#contagion'>Contagion</a>
+          </li>
+          <li className='nav-item'>
+            <a href='#symptoms'>Symptoms</a>
+          </li>
+          <li className='nav-item'>
+            <a href='#prevention'>Prevention</a>
+          </li>
+          <button className='nav-button'>Contact</button>
         </ul>
       </nav>
     </header>
