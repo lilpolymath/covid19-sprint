@@ -55,13 +55,13 @@
     flex-direction: column-reverse;
   }
 
-  .hero {
-    margin: 32px 0;
-  }
-
   .main {
     font-size: 36px;
     color: #035755;
     line-height: 48px;
+  }
+
+  .content {
+    max-width: 600px;
   }
 }

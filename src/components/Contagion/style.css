@@ -81,7 +81,7 @@
     width: auto;
   }
 
-  .contagion {
-    margin-top: 32px;
+  .desc {
+    max-width: 600px;
   }
 }
