@@ -17,6 +17,10 @@
   flex-direction: column;
 }
 
+.link {
+  background-color: rgba(250, 86, 82, 0.15) !important;
+}
+
 .link a {
-  color: white;
+  color: #fa5652 !important;
 }

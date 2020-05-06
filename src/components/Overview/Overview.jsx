@@ -305,7 +305,7 @@ const Overview = () => {
           as Severe Acute Respiratory Syndrome (SARS) and some types of common
           cold.
         </p>
-        <button className='link'>
+        <button className='external-link'>
           <a href='https://www.unicef.org/stories/novel-coronavirus-outbreak-what-parents-should-know'>
             Read More
           </a>
