@@ -1,0 +1,90 @@
+.prevention {
+  display: flex;
+  flex-direction: column;
+}
+
+.prevention-tips {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 40px 0;
+}
+
+.tip {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 64px;
+}
+
+.tip-content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
+}
+
+.tip-infographic {
+  display: flex;
+  flex: 1;
+}
+
+.number {
+  display: flex;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  background-color: rgba(250, 86, 82, 0.15);
+  color: #fa5652;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.tip-number {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.tipss > header {
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .tip {
+    flex-direction: column-reverse;
+    margin: 48px 0;
+  }
+
+  .tip-content {
+    order: 1;
+    margin-top: 24px;
+  }
+
+  .tip-infographic {
+    order: 2;
+    max-height: 500px;
+  }
+
+  .number {
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  .tip-number {
+    font-size: 24px;
+  }
+  .prevention-tip {
+    margin: 32px 0;
+  }
+
+  .tipss > header {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .tipss > .desc {
+    margin-top: 12px;
+  }
+}

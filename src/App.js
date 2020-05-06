@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import Overview from './components/Overview/Overview';
 import Contagion from './components/Contagion/Contagion';
 import Symptoms from './components/Symptoms/Symptoms';
+import Prevention from './components/Prevention/Prevention';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Overview />
       <Contagion />
       <Symptoms />
+      <Prevention />
     </>
   );
 }
