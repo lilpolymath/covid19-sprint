@@ -1,0 +1,51 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+}
+
+.main {
+  font-size: 40px;
+  color: #035755;
+  line-height: 52px;
+  font-weight: bold;
+  margin-top: 24px;
+  text-transform: capitalize;
+}
+
+.caption {
+  font-size: 24px;
+  line-height: 36px;
+  color: #fa5652;
+  font-weight: bold;
+}
+
+.desc {
+  margin-top: 32px;
+  color: #4b4f51;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.link {
+  margin: 32px 0;
+  background-color: #fa5652;
+  color: white;
+}
+
+.image {
+  display: flex;
+  flex: 0.6;
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+}

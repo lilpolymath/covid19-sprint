@@ -3,7 +3,7 @@ import './style.css';
 
 const NavBar = () => {
   return (
-    <header>
+    <header className='header'>
       <div className='logo'>
         <svg
           width='63'
