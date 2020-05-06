@@ -1,0 +1,22 @@
+.overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.overview-image {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  margin-right: 60px;
+}
+
+.overview-desc {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.link a {
+  color: white;
+}
