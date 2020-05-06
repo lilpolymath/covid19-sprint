@@ -51,7 +51,11 @@ ul li {
   position: relative;
 }
 
-.active:after {
+a:hover {
+  color: #ff383d;
+}
+
+a:hover:after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -62,6 +66,27 @@ ul li {
   left: calc(50% - 5px);
 }
 
-.active {
+a:active {
   color: #ff383d;
+}
+
+a:active:after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  background: #ff383d;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  left: calc(50% - 5px);
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    display: none;
+  }
+
+  .content {
+    margin-top: 64px;
+  }
 }

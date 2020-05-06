@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin: 32px 0;
+  margin: 40px 0;
 }
 
 .card {
@@ -32,7 +32,7 @@
   align-items: center;
 }
 
-.content {
+.card-content {
   display: flex;
   flex: 0.3;
   align-items: center;
@@ -41,6 +41,8 @@
 .card-description {
   margin: 12px 0;
   font-size: 16px;
+  color: #4b4f51;
+  line-height: 24px;
 }
 
 .card-main {
@@ -61,4 +63,25 @@
 
 .card:hover {
   border-bottom: 3px solid red;
+}
+.heading > .desc {
+  width: 600px;
+}
+
+@media screen and (max-width: 800px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 32px 0;
+  }
+
+  .heading > .desc {
+    width: auto;
+  }
+
+  .contagion {
+    margin-top: 32px;
+  }
 }

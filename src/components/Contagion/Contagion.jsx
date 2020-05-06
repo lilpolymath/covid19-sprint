@@ -5,9 +5,11 @@ const Contagion = () => {
   return (
     <section className='contagion'>
       <div className='heading'>
-        <p className='caption'>COVID-19</p>
         <header className='main'>Contagion</header>
-        <p className='desc'></p>
+        <p className='desc'>
+          People who are infected often have symptoms of illness. Some people
+          without symptoms may be able to spread virus.
+        </p>
       </div>
       <div className='cards'>
         <div className='card'>
@@ -259,11 +261,11 @@ const Contagion = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className='content'>
+          <div className='card-content content'>
             <header className='card-main'>Air Transmission</header>
             <p className='card-description'>
               Use a tissue while sneezing to prevent your droplets from
-              contaminating nearby objects..
+              contaminating nearby objects.
             </p>
           </div>
         </div>
@@ -355,7 +357,7 @@ const Contagion = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className='content'>
+          <div className='card-content content'>
             <header className='card-main'>Human Contacts</header>
             <p className='card-description'>
               Washing your hands is the simplest way you can protect yourself.
@@ -499,7 +501,7 @@ const Contagion = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className='content'>
+          <div className='card-content content'>
             <header className='card-main'>Contaminated Objects</header>
             <p className='card-description'>
               Use a tissue while sneezing to prevent your droplets from
