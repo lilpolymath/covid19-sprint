@@ -17,10 +17,11 @@
   flex-direction: column;
 }
 
-.link {
-  background-color: rgba(250, 86, 82, 0.15) !important;
+.external-link {
+  margin: 32px 0;
+  background-color: rgba(250, 86, 82, 0.15);
 }
 
-.link a {
-  color: #fa5652 !important;
+.external-link a {
+  color: #fa5652;
 }
