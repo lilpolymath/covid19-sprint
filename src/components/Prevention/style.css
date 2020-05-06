@@ -17,6 +17,10 @@
   margin-bottom: 64px;
 }
 
+.tipss > .desc {
+  text-transform: none;
+}
+
 .tip-content {
   display: flex;
   flex: 1;
@@ -80,11 +84,14 @@
   }
 
   .tipss > header {
-    font-size: 24px;
-    margin-top: 0;
+    font-size: 26px;
   }
 
   .tipss > .desc {
     margin-top: 12px;
+  }
+
+  .anchor {
+    display: none;
   }
 }

@@ -22,10 +22,14 @@ const Prevention = () => {
             <div className='tipss'>
               <header className='main'>Wear Masks</header>
               <p className='desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                voluptate quibusdam maxime consectetur natus, numquam, pariatur
-                vel, fuga laboriosam cumque reiciendis unde. Officia cumque
-                illum incidunt sint quos ratione asperiores?
+                Everyone should wear a cloth face cover when they have to go out
+                in public, for example to the grocery store or to pick up other
+                necessities. Cloth face coverings should not be placed on young
+                children under age 2, anyone who has trouble breathing, or is
+                unconscious, incapacitated or otherwise unable to remove the
+                mask without assistance. The cloth face cover is meant to
+                protect other people in case you are infected. Do NOT use a
+                facemask meant for a healthcare worker.
               </p>
             </div>
           </div>
@@ -563,10 +567,13 @@ const Prevention = () => {
             <div className='tipss'>
               <header className='main'>Wash Your Hands</header>
               <p className='desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                voluptate quibusdam maxime consectetur natus, numquam, pariatur
-                vel, fuga laboriosam cumque reiciendis unde. Officia cumque
-                illum incidunt sint quos ratione asperiores?
+                Wash your hands often with soap and water for at least 20
+                seconds especially after you have been in a public place, or
+                after blowing your nose, coughing, or sneezing. If soap and
+                water are not readily available, use a hand sanitizer that
+                contains at least 60% alcohol. Cover all surfaces of your hands
+                and rub them together until they feel dry. Avoid touching your
+                eyes, nose, and mouth with unwashed hands.
               </p>
             </div>
           </div>
@@ -580,12 +587,15 @@ const Prevention = () => {
             </div>
 
             <div className='tipss'>
-              <header className='main'>Use Nose Rag</header>
+              <header className='main'>Use Nose Rag or Tissue</header>
               <p className='desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                voluptate quibusdam maxime consectetur natus, numquam, pariatur
-                vel, fuga laboriosam cumque reiciendis unde. Officia cumque
-                illum incidunt sint quos ratione asperiores?
+                If you are in a private setting and do not have on your cloth
+                face covering, remember to always cover your mouth and nose with
+                a tissue when you cough or sneeze or use the inside of your
+                elbow. Throw used tissues in the trash. Immediately wash your
+                hands with soap and water for at least 20 seconds. If soap and
+                water are not readily available, clean your hands with a hand
+                sanitizer that contains at least 60% alcohol.
               </p>
             </div>
           </div>
@@ -1126,10 +1136,15 @@ const Prevention = () => {
             <div className='tipss'>
               <header className='main'>Avoid Contact</header>
               <p className='desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                voluptate quibusdam maxime consectetur natus, numquam, pariatur
-                vel, fuga laboriosam cumque reiciendis unde. Officia cumque
-                illum incidunt sint quos ratione asperiores?
+                Avoid close contact with people who are sick, even inside your
+                home. If possible, maintain 6 feet between the person who is
+                sick and other household members. Put distance between yourself
+                and other people outside of your home. Remember that some people
+                without symptoms may be able to spread virus. Stay at least 6
+                feet (about 2 arms’ length) from other people. Do not gather in
+                groups. Stay out of crowded places and avoid mass gatherings.
+                Keeping distance from others is especially important for people
+                who are at higher risk of getting very sick.
               </p>
             </div>
           </div>
