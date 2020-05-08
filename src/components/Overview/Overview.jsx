@@ -306,7 +306,10 @@ const Overview = () => {
           cold.
         </p>
         <button className='external-link'>
-          <a href='https://www.unicef.org/stories/novel-coronavirus-outbreak-what-parents-should-know'>
+          <a
+            className='external'
+            href='https://www.unicef.org/stories/novel-coronavirus-outbreak-what-parents-should-know'
+          >
             Read More
           </a>
         </button>
