@@ -104,7 +104,11 @@ const NavBar = () => {
           <li className='nav-item'>
             <a href='#prevention'>Prevention</a>
           </li>
-          <button className='nav-button'>Contact</button>
+          <button className='nav-button'>
+            <a className='external' href='https://covid19.ncdc.gov.ng/contact/'>
+              Contact
+            </a>
+          </button>
         </ul>
       </nav>
     </header>

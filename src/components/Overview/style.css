@@ -22,10 +22,6 @@
   background-color: rgba(250, 86, 82, 0.15);
 }
 
-.external-link a {
-  color: #fa5652;
-}
-
 @media screen and (max-width: 800px) {
   .overview {
     flex-direction: column;

@@ -51,11 +51,11 @@ ul li {
   position: relative;
 }
 
-a:hover {
+.nav-item > a:hover {
   color: #ff383d;
 }
 
-a:hover:after {
+.nav-item > a:hover:after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -79,6 +79,10 @@ a:active:after {
   height: 10px;
   border-radius: 100%;
   left: calc(50% - 5px);
+}
+
+.external {
+  color: #fa5652;
 }
 
 @media screen and (max-width: 800px) {
