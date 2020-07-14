@@ -11,11 +11,13 @@ function App() {
   return (
     <>
       <NavBar />
-      <Hero />
-      <Overview />
-      <Contagion />
-      <Symptoms />
-      <Prevention />
+      <main>
+        <Hero />
+        <Overview />
+        <Contagion />
+        <Symptoms />
+        <Prevention />
+      </main>
     </>
   );
 }

@@ -30,6 +30,7 @@
   padding: 24px;
   justify-content: space-between;
   align-items: center;
+  z-index: 3;
 }
 
 .card-content {
@@ -57,13 +58,21 @@
   margin-bottom: 32px;
 }
 
-.svg {
-  width: 100%;
-}
-
 .card:hover {
   border-bottom: 3px solid red;
 }
+
+.one {
+  position: relative;
+}
+
+.covid-2 {
+  position: absolute;
+  bottom: -30px;
+  left: -70px;
+  width: 200px;
+}
+
 .heading > .desc {
   width: 600px;
 }

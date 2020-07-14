@@ -55,6 +55,13 @@
   margin-top: 12px;
 }
 
+.covid-3 {
+  position: absolute;
+  bottom: -30px;
+  right: -150px;
+  width: 200px;
+}
+
 @media screen and (max-width: 800px) {
   .tip {
     flex-direction: column-reverse;
@@ -91,7 +98,8 @@
     margin-top: 12px;
   }
 
-  .anchor {
+  .anchor,
+  .covid-3 {
     display: none;
   }
 }

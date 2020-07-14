@@ -10,8 +10,13 @@ html {
 body {
   background-color: #ffffff;
   color: black;
-  max-width: 1140px;
+
+  position: relative;
+}
+
+main {
   padding: 0px 16px;
+  max-width: 1140px;
   margin: auto;
   height: auto;
 }

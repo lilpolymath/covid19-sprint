@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
 
 .overview-image {
@@ -20,6 +21,13 @@
 .external-link {
   margin: 32px 0;
   background-color: rgba(250, 86, 82, 0.15);
+}
+
+.covid-1 {
+  position: absolute;
+  bottom: -30px;
+  right: -40px;
+  width: 200px;
 }
 
 @media screen and (max-width: 800px) {
@@ -44,5 +52,9 @@
   .overview-image {
     margin-right: 0;
     max-height: 500px;
+  }
+
+  .covid-1 {
+    display: none;
   }
 }

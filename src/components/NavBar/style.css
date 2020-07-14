@@ -5,13 +5,14 @@
   flex-direction: row;
   height: 100px;
   max-width: 1140px;
+  margin: auto;
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
   background-color: white;
 }
 
