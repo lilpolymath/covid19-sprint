@@ -17,6 +17,9 @@ function App() {
         <Contagion />
         <Symptoms />
         <Prevention />
+        <footer className='desc'>
+          &copy; 2020 All rights reserved by pixelspark.co.
+        </footer>
       </main>
     </>
   );

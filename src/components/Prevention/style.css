@@ -23,7 +23,7 @@
 
 .tip-content {
   display: flex;
-  flex: 1;
+  flex: 0.45;
   justify-content: space-between;
   flex-direction: row;
   margin: auto;
@@ -31,7 +31,7 @@
 
 .tip-infographic {
   display: flex;
-  flex: 1;
+  flex: 0.4;
 }
 
 .number {

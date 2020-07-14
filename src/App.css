@@ -40,10 +40,6 @@ section {
   align-items: center;
 }
 
-.space-right {
-  margin-right: 40px;
-}
-
 @media screen and (max-width: 800px) {
   section {
     margin: 32px 0;
