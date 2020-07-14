@@ -45,11 +45,16 @@
 .image {
   display: flex;
   flex: 0.6;
+  margin-top: 64px;
 }
 
 .svg {
   width: 100%;
   height: auto;
+}
+
+.footer {
+  font-size: 24px;
 }
 
 @media screen and (max-width: 800px) {
@@ -65,5 +70,9 @@
 
   .content {
     max-width: 600px;
+  }
+
+  .footer {
+    font-size: 16px;
   }
 }

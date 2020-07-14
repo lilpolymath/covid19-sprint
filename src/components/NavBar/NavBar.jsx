@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
+import { animated, useSpring, config } from 'react-spring';
 import './style.css';
 
 const NavBar = () => {
   const [active, setActive] = useState('Home');
+  const [open, setOpen] = useState(false);
+
+  const props = useSpring({
+    opacity: open ? 1 : 0,
+    height: open ? '100%' : '0%',
+    config: { ...config.molasses, duration: 800 },
+  });
+
   return (
     <div className='sticky'>
       <header className='header'>
-        <div className='logo'>
+        <a href='#hero' className='logo'>
           <svg
             width='63'
             height='63'
@@ -89,7 +98,7 @@ const NavBar = () => {
           </svg>
 
           <h1 className='title'>Covid-19</h1>
-        </div>
+        </a>
         <nav>
           <ul className='nav-links'>
             <li className='nav-item'>
@@ -137,7 +146,53 @@ const NavBar = () => {
               </a>
             </button>
           </ul>
+          <div onClick={() => setOpen(!open)} className='hamburger'>
+            <div className={open ? 'hamburger-icon none' : 'hamburger-icon'}>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
         </nav>
+        <animated.div style={props} className='menubar'>
+          <ul className='menu-links'>
+            <li className='nav-item'>
+              <a
+                href='#overview'
+                onClick={() => setActive('overview')}
+                className={active === 'overview' ? 'active' : null}
+              >
+                Overview
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a
+                href='#contagion'
+                onClick={() => setActive('contagion')}
+                className={active === 'contagion' ? 'active' : null}
+              >
+                Contagion
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a
+                href='#symptoms'
+                onClick={() => setActive('symptoms')}
+                className={active === 'symptoms' ? 'active' : null}
+              >
+                Symptoms
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a
+                href='#prevention'
+                onClick={() => setActive('prevention')}
+                className={active === 'prevention' ? 'active' : null}
+              >
+                Prevention
+              </a>
+            </li>
+          </ul>
+        </animated.div>
       </header>
     </div>
   );
