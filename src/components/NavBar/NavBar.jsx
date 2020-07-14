@@ -8,7 +8,7 @@ const NavBar = () => {
 
   const props = useSpring({
     opacity: open ? 1 : 0,
-    height: open ? '100%' : '0%',
+    minHeight: open ? '50%' : '0%',
     config: { ...config.molasses, duration: 800 },
   });
 
