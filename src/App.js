@@ -6,6 +6,7 @@ import Overview from './components/Overview/Overview';
 import Contagion from './components/Contagion/Contagion';
 import Symptoms from './components/Symptoms/Symptoms';
 import Prevention from './components/Prevention/Prevention';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Contagion />
         <Symptoms />
         <Prevention />
+        <Dashboard />
         <section className='footer'>
           &copy; 2020 All rights reserved by pixelspark.co.
         </section>

@@ -137,6 +137,15 @@ const NavBar = () => {
                 Prevention
               </a>
             </li>
+            <li className='nav-item'>
+              <a
+                href='#dashboard'
+                onClick={() => setActive('dashboard')}
+                className={active === 'dashboard' ? 'active' : null}
+              >
+                Dasboard
+              </a>
+            </li>
             <button className='nav-button'>
               <a
                 className='external'
@@ -189,6 +198,15 @@ const NavBar = () => {
                 className={active === 'prevention' ? 'active' : null}
               >
                 Prevention
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a
+                href='#dashboard'
+                onClick={() => setActive('dashboard')}
+                className={active === 'dashboard' ? 'active' : null}
+              >
+                Dasboard
               </a>
             </li>
           </ul>
