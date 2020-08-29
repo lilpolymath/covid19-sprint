@@ -146,14 +146,14 @@ const NavBar = () => {
                 Dasboard
               </a>
             </li>
-            <button className='nav-button'>
+            
               <a
-                className='external'
+                className='external nav-button'
                 href='https://covid19.ncdc.gov.ng/contact/'
               >
                 Contact
               </a>
-            </button>
+           
           </ul>
           <div onClick={() => setOpen(!open)} className='hamburger'>
             <div className={open ? 'hamburger-icon none' : 'hamburger-icon'}>

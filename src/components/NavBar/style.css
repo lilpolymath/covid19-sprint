@@ -50,8 +50,13 @@ a {
 }
 
 .nav-button {
-  outline: none;
+  font-size: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 46px;
+  width: 140px;
   border: 3px solid #fb4c47;
+  text-align: center;
 }
 
 .nav-links li {
